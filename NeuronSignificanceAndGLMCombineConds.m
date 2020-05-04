@@ -1,5 +1,5 @@
 function [neuronsPerArea,signifAll]=NeuronSignificanceAndGLMCombineConds(PSTHstruct,relevantRegions,relevantAtlasLabels,saveToFileName)
-%%% this function is supposed to take PSTHstructure containing all the
+%%% this function takes PSTHstructure containing all the
 %%% spikes and given a set of conditions and time windows to say which
 %%% neurons are responsive for each area.in cobines conditions 1,2 and 3,4 for the purpose of main effects calculations.
 %%% before you begin you need to load
