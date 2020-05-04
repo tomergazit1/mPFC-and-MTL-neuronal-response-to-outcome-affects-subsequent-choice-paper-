@@ -1,5 +1,5 @@
 function [neuronsPerArea,signifAll,signifPercMatrix,signifPercAdd,signifContrastAll,signifToPreAppearAll,signifToPreAppearPerc,signifContrastAllClas,posUnits,negUnits,meansContrast,meansContrastNoMove]=NeuronSignificanceAndGLM(PSTHstruct,relevantRegions,relevantAtlasLabels,saveToFileName)
-%%% this function is supposed to take PSTHstructure containing all the
+%%% this function takes PSTHstructure containing all the
 %%% spikes and given a set of conditions and time windows to say which
 %%% neurons are responsive for each area. before you begin you need to load
 %%% the PSTH structure and the neuronsPerArea cell array
